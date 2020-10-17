@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>howto-git</title>
+  </head>
+  <body>
+
+    <div class="title">
+      <h1>Githubの使い方</h1>
+    </div>
+
+    <section class="how1">
+      <h1>Githubとは</h1>
+      <p>Githubは自分の書いたコードを公開し、管理するツールです。公開するときには[private]か[public]を選ぶことができます。</p>
+    </section>
+
+    <section class="how2">
+      <h1>用語</h1>
+      <p>次に、Githubを使う時に必要な用語がいくつかあります。</p>
+      <ul>
+        <li>リポジトリ：書いたコードを保存する場所</li>
+        <li>リモートリポジトリ：WEB上</li>
+        <li>ローカルリポジトリ：自分のパソコン上</li>
+        <li>コミット：一時的にパソコンに保存</li>
+        <li>プッシュ：Githubにあげること</li>
+      </ul>
+    </section>
+
+    <section class="how3">
+      <h1>プロジェクト開始</h1>
+      <p>Githubでプロジェクトを始める手順について説明します。</p>
+      <ul>
+        <li>1, Repositoriesを開く</li>
+        <li>2, Newをクリック</li>
+        <li>3, Repository nameを設定後、Public(公開)Private(非公開)を選ぶ</li>
+        <li>4, Create Repositoryをクリック</li>
+      </ul>
+      <p>完成！</p>
+    </section>
+
+    <section class="how4">
+      <h1>コミットしてみよう</h1>
+      <p>書いたコードをGithubにあげる方法を説明します。</p>
+
+      <div class="first">
+        <h1>① 初めてのコミット</h1>
+        <ul>
+          <li>git init</li>
+          <li>git add README.md</li>
+          <li>git commit -m "first commit"</li>
+          <li>git branch -M main</li>
+          <li>git remote add origin (例)https://github.com/ayn54i/howto-git.git</li>
+          <li>git push origin main</li>
+        </ul>
+      </div>
+
+      <div class="not-first">
+        <h1>② 二度目以降のコミット</h1>
+        <ul>
+          <li>git add .</li>
+          <li>git commit (例)"[add] img"</li>
+          <li>git push origin main</li>
+        </ul>
+      </div>
+
+    </section>
+
+  </body>
+</html>
