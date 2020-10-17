@@ -1,0 +1,57 @@
+body{
+  background-color: #E6E6FA;
+  color: #555;
+  margin: 0;
+}
+
+header{
+  background-color: #D8BfD8;
+  width: 100%;
+  height: 110px;
+  margin: 0;
+}
+
+.title h1{
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 90px;
+}
+
+.how1 {
+  margin-bottom: 60px;
+}
+
+.how1 h1{
+  font-size: 30px;
+}
+
+.how2{
+  margin-bottom: 30px;
+}
+
+.how2 h1{
+  font-size: 30px;
+}
+
+.how3{
+  margin-bottom: 60px;
+}
+
+.how3 h1{
+  font-size: 30px;
+}
+
+.how4{
+  margin-bottom: 60px;
+}
+
+.title2{
+  margin-bottom: 30px;
+}
+
+.title2 h1{
+  font-size: 30px;
+}
